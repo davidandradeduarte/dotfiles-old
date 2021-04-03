@@ -1,0 +1,246 @@
+#!/bin/bash
+
+echo "Starting setup"
+
+# install xcode CLI
+xcode-select --install
+
+if test ! $(which brew); then
+	echo "Installing homebrew..."
+	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+echo "Updating homebrew..."
+brew update
+
+echo "Installing homebrew packages..."
+brew_packages=(
+	git
+	neovim
+	bat
+	fzf
+	wget
+	grep
+	htop
+	tldr
+	jq
+	ncdu
+	tmux
+	bash
+	zsh
+	# zsh-autosuggestions
+	# zsh-you-should-use
+	# zsh-completions
+	# zsh-syntax-highlighting
+	thefuck
+	kubernetes-cli
+	azure-cli
+	ack
+	ansible
+	vagrant-completion
+	stern
+	kubectx
+	gh
+	go
+	vim
+	curl
+	terraform
+	minikube
+	k3d
+	nmap
+	tree
+	rust
+	watch
+	fish
+	ripgrep
+	findutils
+	yq
+	gawk
+	nano
+	openssh
+	fd
+	make
+	openvpn
+	mkcert
+	k9s
+	bash-completion
+	archey
+	python
+	ctop
+	mas
+	java
+	wireshark
+	aircrack-ng
+	john
+	iproute2mac
+	teleconsole
+	git-delta
+	php
+	ranger
+)
+brew install ${brew_packages[@]}
+
+echo "Installing homebrew casks..."
+brew_casks=(
+	visual-studio-code
+	iterm2
+	brave-browser
+	google-chrome
+	firefox
+	tor-browser
+	zoom
+	slack
+	microsoft-teams
+	docker
+	obs
+	bitwarden
+	lens
+	discord
+	vagrant
+	dotnet-sdk
+	openvpn-connect
+	#intellij-idea-ce
+	intellij-idea
+	rider
+	jetbrains-toolbox
+	powershell
+	kitty
+	hyper
+	alacritty
+	thunderbird
+	cloudflare-warp
+	protonvpn
+	spotify
+	maccy
+	rectangle
+	whatsapp
+	messenger
+	notion
+	gimp
+	fork
+	stats
+	scroll-reverser
+	vlc
+	disk-inventory-x
+	angry-ip-scanner
+	libre-office
+	virtualbox
+	microsoft-remote-desktop
+	opensong
+	wireshark
+	wireshark-chmodbpf
+	transmission
+	ngrok
+	goland
+	itsycal
+	meetingbar
+	azure-data-studio
+)
+brew install --cask ${brew_casks[@]}
+
+echo "Cleaning up homebrew..."
+brew upgrade
+brew cleanup
+brew doctor
+
+# TODO: install code extensions
+# code --install-extension X
+
+# app store
+mas install 937984704 # Amphetamine
+mas install 409789998 # Twitter TODO: outdated. points to an old app version
+
+# go packages
+go get github.com/hakluke/hakrawler
+
+# python packages
+#pip3 install scrapy
+
+# TODO: Change OSX defaults
+# - show all file extensions
+# - hide dock
+# - Trackpad options
+# - tap to click
+# - swipe down with 3 fingers
+# - 
+# - ...
+# remove all items from dock
+defaults delete com.apple.dock persistent-apps; killall Dock
+# only open apps in dock
+defaults write com.apple.dock static-only -bool true
+# set computer name
+sudo scutil --set ComputerName "lion"
+sudo scutil --set HostName "lion"
+sudo scutil --set LocalHostName "lion"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "lion"
+# disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+# trackpad: enable tap to click for this user and for the login screen
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# Finder: show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles -bool true
+# Finder: show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# Finder: hide status bar
+defaults write com.apple.finder ShowStatusBar -bool false
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
+# Display full POSIX path as Finder window title
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+# Keep folders on top when sorting by name
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
+# Disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+# Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+# Disable automatic capitalization as it’s annoying when typing code
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+# Disable smart dashes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+# Disable automatic period substitution as it’s annoying when typing code
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+# Disable smart quotes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+# Require password immediately after sleep or screen saver begins
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+# Privacy: don’t send search queries to Apple
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+# Show the full URL in the address bar (note: this still hides the scheme)
+defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+# Set Safari’s home page to `about:blank` for faster loading
+defaults write com.apple.Safari HomePage -string "about:blank"
+# Use plain text mode for new TextEdit documents
+defaults write com.apple.TextEdit RichText -int 0
+# Open and save files as UTF-8 in TextEdit
+defaults write com.apple.TextEdit PlainTextEncoding -int 4
+defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+# Save to disk (not to iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+# Finder to list view
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+# rm all .DS_Store files
+sudo find / -name ".DS_Store" -exec rm {} \;
+
+
+# Use a modified version of the Solarized Dark theme by default in Terminal.app
+# TODO: Not working
+osascript <<EOD
+tell application "Terminal"
+	set themeName to "Homebrew" 
+end tell
+EOD
+
+# TODO: dotfiles
+# - gitconfig
+# - gitignore
+# - vimrc
+# - ...
+
+echo "Setup completed!"

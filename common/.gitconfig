@@ -1,0 +1,27 @@
+[user]
+	name = David Duarte
+	email = davidandradeduarte@gmail.com
+	username = davidandradeduarte
+[core]
+	editor = vim
+	# pager = delta
+[init]
+	defaultBranch = main
+[alias]
+	ss = status -s
+	co = checkout
+	cb = checkout -b
+	fp = !git fetch && git pull
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+[color "status"]
+	added = green bold
+	# changed = yellow bold # iterm2 profile color scheme doesn't play well with yellow 
+	changed = red bold
+	untracked = red bold
+# [delta]
+#     plus-style = "syntax #012800"
+#     minus-style = "syntax #340001"
+#     syntax-theme = base16
+#     navigate = true
+# [interactive]
+#     diffFilter = delta --color-only
