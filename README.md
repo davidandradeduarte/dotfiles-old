@@ -1,3 +1,1 @@
-# Dotfiles and initial setup configurations
-
-TODO
+# dotfiles and initial setup configurations
