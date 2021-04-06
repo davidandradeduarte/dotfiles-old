@@ -109,6 +109,7 @@ choco install 7zip
 choco install insomnia-rest-api-client
 choco install visualstudio2019community
 choco install sql-server-management-studio
+choco install vnc-viewer
 
 # caffeine
 # https://zhornsoftware.co.uk/caffeine/#download

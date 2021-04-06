@@ -135,6 +135,7 @@ brew_casks=(
 	itsycal
 	meetingbar
 	azure-data-studio
+	vnc-viewer
 )
 brew install --cask ${brew_casks[@]}
 
