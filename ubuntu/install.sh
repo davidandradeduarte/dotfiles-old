@@ -86,3 +86,4 @@ sudo apt-get update && sudo apt-get install terraform
 #
 brew install k3d
 brew install ctop
+sudo apt-get install kafkacat

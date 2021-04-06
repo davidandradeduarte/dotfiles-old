@@ -77,6 +77,7 @@ brew_packages=(
 	git-delta
 	php
 	ranger
+	kafkacat
 )
 brew install ${brew_packages[@]}
 

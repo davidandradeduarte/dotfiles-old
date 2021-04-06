@@ -25,3 +25,7 @@
 #     navigate = true
 # [interactive]
 #     diffFilter = delta --color-only
+
+# client specific
+[url "git@ssh.dev.azure.com:v3/anovateam/"]
+  insteadOf = https://dev.azure.com/anovateam/
