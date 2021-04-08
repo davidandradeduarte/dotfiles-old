@@ -78,6 +78,8 @@ brew_packages=(
 	php
 	ranger
 	kafkacat
+	http-server
+	speedtest-cli
 )
 brew install ${brew_packages[@]}
 
