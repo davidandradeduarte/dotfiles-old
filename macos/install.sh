@@ -82,8 +82,17 @@ brew_packages=(
 	speedtest-cli
 	pre-commit
 	gitversion
+	kustomize
+	sops
+	fluxctl
+	tflint
+	terragrunt
 )
 brew install ${brew_packages[@]}
+
+# dotnet version management
+# https://github.com/isen-ng/homebrew-dotnet-sdk-versions
+# brew tap isen-ng/dotnet-sdk-versions
 
 echo "Installing homebrew casks..."
 brew_casks=(
@@ -161,6 +170,7 @@ go get github.com/hakluke/hakrawler
 
 # python packages
 #pip3 install scrapy
+pip3 install terraplanfeed
 
 # TODO: Change OSX defaults
 # - show all file extensions
