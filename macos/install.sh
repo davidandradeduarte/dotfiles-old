@@ -80,6 +80,8 @@ brew_packages=(
 	kafkacat
 	http-server
 	speedtest-cli
+	pre-commit
+	gitversion
 )
 brew install ${brew_packages[@]}
 

@@ -110,6 +110,10 @@ choco install insomnia-rest-api-client
 choco install visualstudio2019community
 choco install sql-server-management-studio
 choco install vnc-viewer
+choco install gitversion.portable
+
+# python packages
+pip install pre-commit
 
 # caffeine
 # https://zhornsoftware.co.uk/caffeine/#download
