@@ -87,6 +87,7 @@ brew_packages=(
 	fluxctl
 	tflint
 	terragrunt
+	wakeonlan
 )
 brew install ${brew_packages[@]}
 
