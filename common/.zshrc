@@ -144,3 +144,18 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 lg(){
     lazygit "$@"
 }
+
+# kubectl
+k(){
+    kubectl "$@"
+}
+
+# kubectx
+kc(){
+    kubectx "$@"
+}
+
+# kubens
+kn(){
+    kubens "$@"
+}

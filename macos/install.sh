@@ -88,6 +88,8 @@ brew_packages=(
 	tflint
 	terragrunt
 	wakeonlan
+	mycli
+	mysql
 )
 brew install ${brew_packages[@]}
 
@@ -150,10 +152,11 @@ brew_casks=(
 	transmission
 	ngrok
 	goland
-	itsycal
+	#itsycal
 	meetingbar
 	azure-data-studio
 	vnc-viewer
+	signal
 )
 brew install --cask ${brew_casks[@]}
 
