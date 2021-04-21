@@ -90,7 +90,10 @@ brew_packages=(
 	wakeonlan
 	mycli
 	mysql
+	mongocli
+	rustscan
 )
+brew tap mongodb/brew
 brew install ${brew_packages[@]}
 
 # dotnet version management
@@ -157,6 +160,8 @@ brew_casks=(
 	azure-data-studio
 	vnc-viewer
 	signal
+	mongodb-compass
+	gns3
 )
 brew install --cask ${brew_casks[@]}
 
