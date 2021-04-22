@@ -92,6 +92,7 @@ brew_packages=(
 	mysql
 	mongocli
 	rustscan
+	z
 )
 brew tap mongodb/brew
 brew install ${brew_packages[@]}
