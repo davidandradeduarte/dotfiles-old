@@ -93,8 +93,11 @@ brew_packages=(
 	mongocli
 	rustscan
 	z
+	evans
+	mongodb-community
 )
 brew tap mongodb/brew
+brew tap ktr0731/evans
 brew install ${brew_packages[@]}
 
 # dotnet version management
