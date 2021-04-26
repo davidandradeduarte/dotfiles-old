@@ -95,6 +95,7 @@ brew_packages=(
 	z
 	evans
 	mongodb-community
+	terraform-docs
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
