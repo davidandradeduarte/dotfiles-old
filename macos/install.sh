@@ -98,6 +98,7 @@ brew_packages=(
 	terraform-docs
 	bandwhich
 	Azure/kubelogin/kubelogin
+	hugo
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
