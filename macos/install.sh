@@ -171,6 +171,7 @@ brew_casks=(
 	signal
 	mongodb-compass
 	gns3
+	microsoft-azure-storage-explorer
 )
 brew install --cask ${brew_casks[@]}
 
