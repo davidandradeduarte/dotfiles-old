@@ -100,6 +100,7 @@ brew_packages=(
 	Azure/kubelogin/kubelogin
 	hugo
 	stress
+	wiki
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans

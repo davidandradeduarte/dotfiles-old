@@ -111,6 +111,7 @@ choco install visualstudio2019community
 choco install sql-server-management-studio
 choco install vnc-viewer
 choco install gitversion.portable
+choco install lockhunter
 
 # python packages
 pip install pre-commit
