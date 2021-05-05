@@ -99,6 +99,7 @@ brew_packages=(
 	bandwhich
 	Azure/kubelogin/kubelogin
 	hugo
+	stress
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
