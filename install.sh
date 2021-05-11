@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO: move this to macos/
+
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # vim/nvim
