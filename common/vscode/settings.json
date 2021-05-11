@@ -1,0 +1,15 @@
+{
+    "telemetry.enableTelemetry": false,
+    "timeline.excludeSources": [
+        "git-history"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.renderWhitespace": "all",
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.activityBar.visible": false,
+    "workbench.settings.editor": "ui"
+}
