@@ -102,6 +102,9 @@ brew_packages=(
 	stress
 	wiki
 	golangci-lint
+	ffmpeg
+	opus
+	opus-tools
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
