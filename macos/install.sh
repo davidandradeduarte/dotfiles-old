@@ -101,6 +101,7 @@ brew_packages=(
 	hugo
 	stress
 	wiki
+	golangci-lint
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
