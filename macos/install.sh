@@ -105,6 +105,8 @@ brew_packages=(
 	ffmpeg
 	opus
 	opus-tools
+	krew
+	
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
@@ -195,6 +197,9 @@ mas install 409789998 # Twitter TODO: outdated. points to an old app version
 # go packages
 go get github.com/hakluke/hakrawler
 go get -u github.com/oligot/go-mod-upgrade
+
+# kubectl plugins
+kubectl krew install view-secret
 
 # python packages
 #pip3 install scrapy
