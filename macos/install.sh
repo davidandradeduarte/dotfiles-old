@@ -106,7 +106,7 @@ brew_packages=(
 	opus
 	opus-tools
 	krew
-	
+	kotlin
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
