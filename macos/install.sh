@@ -45,8 +45,10 @@ brew_packages=(
 	vim
 	curl
 	terraform
-	minikube
+	minikube # runs on a vm
 	k3d
+	kind # consider removing all the other k8s wrappers since kind seems to be the best option
+	ubuntu/microk8s/microk8s
 	nmap
 	tree
 	rust
