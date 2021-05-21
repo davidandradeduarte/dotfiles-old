@@ -110,9 +110,11 @@ brew_packages=(
 	krew
 	kotlin
 	ruby
+	git-chglog
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
+brew tap git-chglog/git-chglog
 brew install ${brew_packages[@]}
 
 # dotnet version management
