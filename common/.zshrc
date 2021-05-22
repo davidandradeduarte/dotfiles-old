@@ -82,3 +82,6 @@ kn(){
 
 # z
 . /usr/local/etc/profile.d/z.sh
+
+# f*
+eval $(thefuck --alias)
