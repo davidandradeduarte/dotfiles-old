@@ -19,6 +19,7 @@ plugins=(
     zsh-syntax-highlighting
     zsh-completions
     zsh-autosuggestions
+    kubectl
     )
 
 source $ZSH/oh-my-zsh.sh
@@ -66,9 +67,9 @@ lg(){
 }
 
 # kubectl
-k(){
-    kubectl "$@"
-}
+# k(){
+#     kubectl "$@"
+# }
 
 # kubectx
 kc(){
