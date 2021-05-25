@@ -111,6 +111,7 @@ brew_packages=(
 	kotlin
 	ruby
 	git-chglog
+	multitail
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
