@@ -113,6 +113,7 @@ brew_packages=(
 	git-chglog
 	multitail
 	derailed/popeye/popeye
+	grpcurl
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
