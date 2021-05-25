@@ -112,6 +112,7 @@ brew_packages=(
 	ruby
 	git-chglog
 	multitail
+	derailed/popeye/popeye
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
