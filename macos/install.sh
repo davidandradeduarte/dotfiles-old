@@ -118,6 +118,7 @@ brew_packages=(
 brew tap mongodb/brew
 brew tap ktr0731/evans
 brew tap git-chglog/git-chglog
+brew tap isen-ng/dotnet-sdk-versions # https://github.com/isen-ng/homebrew-dotnet-sdk-versions
 brew install ${brew_packages[@]}
 
 # dotnet version management
