@@ -114,6 +114,8 @@ brew_packages=(
 	multitail
 	derailed/popeye/popeye
 	grpcurl
+	yarn
+	yarn-completion
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
