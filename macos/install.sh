@@ -116,6 +116,7 @@ brew_packages=(
 	grpcurl
 	yarn
 	yarn-completion
+	gibo
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
