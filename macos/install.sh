@@ -191,6 +191,7 @@ brew_casks=(
 	mongodb-compass
 	gns3
 	microsoft-azure-storage-explorer
+	multipass
 )
 brew install --cask ${brew_casks[@]}
 
