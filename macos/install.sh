@@ -118,6 +118,7 @@ brew_packages=(
 	yarn-completion
 	gibo
 	typescript
+	helm
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
