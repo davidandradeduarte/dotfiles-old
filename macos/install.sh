@@ -194,6 +194,7 @@ brew_casks=(
 	gns3
 	microsoft-azure-storage-explorer
 	multipass
+	postman
 )
 brew install --cask ${brew_casks[@]}
 
