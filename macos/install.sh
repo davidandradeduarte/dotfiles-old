@@ -196,6 +196,7 @@ brew_casks=(
 	microsoft-azure-storage-explorer
 	multipass
 	postman
+	twitch
 )
 brew install --cask ${brew_casks[@]}
 
