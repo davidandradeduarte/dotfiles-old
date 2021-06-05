@@ -129,7 +129,7 @@ brew install ${brew_packages[@]}
 
 # dotnet version management
 # https://github.com/isen-ng/homebrew-dotnet-sdk-versions
-# brew tap isen-ng/dotnet-sdk-versions
+brew tap isen-ng/dotnet-sdk-versions
 
 # oh-my-posh
 # update this doc with https://ohmyposh.dev/docs/installation/
@@ -224,6 +224,9 @@ kubectl krew install view-secret
 # python packages
 #pip3 install scrapy
 pip3 install terraplanfeed
+
+# sdk man
+curl -s "https://get.sdkman.io" | bash
 
 # TODO: Change OSX defaults
 # - show all file extensions
