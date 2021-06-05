@@ -2,6 +2,8 @@
 	name = David Duarte
 	email = davidandradeduarte@gmail.com
 	username = davidandradeduarte
+[includeIf "gitdir:~/work/"]
+  path = ~/.gitconfig-work
 [core]
 	editor = vim
 	# pager = delta
