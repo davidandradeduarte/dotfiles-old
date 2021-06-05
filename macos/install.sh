@@ -197,6 +197,7 @@ brew_casks=(
 	multipass
 	postman
 	twitch
+	microsoft-edge
 )
 brew install --cask ${brew_casks[@]}
 
