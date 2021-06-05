@@ -120,6 +120,7 @@ brew_packages=(
 	typescript
 	helm
 	maven
+	youtube-dl
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
