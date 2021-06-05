@@ -75,7 +75,7 @@ brew_packages=(
 	aircrack-ng
 	john
 	iproute2mac
-	teleconsole
+	# teleconsole # deprecated
 	git-delta
 	php
 	ranger
