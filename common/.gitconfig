@@ -7,6 +7,8 @@
 [core]
 	editor = vim
 	# pager = delta
+[credential]
+	helper = osxkeychain
 [init]
 	defaultBranch = main
 [alias]
@@ -28,6 +30,12 @@
 # [interactive]
 #     diffFilter = delta --color-only
 
-# client specific
-[url "git@ssh.dev.azure.com:v3/anovateam/"]
-  insteadOf = https://dev.azure.com/anovateam/
+# Azure DevOps ssh clone
+[url "git@ssh.dev.azure.com:v3/team/project"]
+	insteadOf = https://dev.azure.com/team/project
+
+[url "git@ssh.dev.azure.com:v3/team/project"]
+	insteadOf = https://team@dev.azure.com/team/project
+
+# [url "https://username:PAT@dev.azure.com/team/project/_git"]
+# 	insteadOf = https://dev.azure.com/team/project
