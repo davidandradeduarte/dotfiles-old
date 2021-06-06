@@ -227,6 +227,7 @@ kubectl krew install view-secret
 # python packages
 #pip3 install scrapy
 pip3 install terraplanfeed
+pip3 install statcode
 
 # sdk man
 curl -s "https://get.sdkman.io" | bash
