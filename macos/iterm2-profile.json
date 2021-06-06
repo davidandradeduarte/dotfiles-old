@@ -1,11 +1,5 @@
 {
-  "Ansi 5 Color" : {
-    "Red Component" : 0.752197265625,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.74494361877441406,
-    "Alpha Component" : 1,
-    "Green Component" : 0.24931684136390686
-  },
+  "Custom Directory" : "No",
   "Working Directory" : "\/Users\/david",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
@@ -33,7 +27,7 @@
     "Green Component" : 0.86199951171875
   },
   "HotKey Window Floats" : false,
-  "Right Option Key Sends" : 0,
+  "Right Option Key Sends" : 2,
   "Character Encoding" : 4,
   "Selection Color" : {
     "Red Component" : 0.70196080207824707,
@@ -42,7 +36,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.84313726425170898
   },
-  "Blend" : 0.18927430157886127,
+  "Blend" : 0.2269531889111584,
   "Mouse Reporting" : true,
   "Ansi 4 Color" : {
     "Red Component" : 0.15404300391674042,
@@ -65,6 +59,7 @@
   "Scrollback Lines" : 1000,
   "HotKey Window Reopens On Activation" : true,
   "Draw Powerline Glyphs" : true,
+  "Hide After Opening" : false,
   "Brighten Bold Text" : true,
   "Flashing Bell" : false,
   "Cursor Guide Color" : {
@@ -371,8 +366,8 @@
     "Green Component" : 0.23660069704055786
   },
   "Name" : "My",
-  "Blinking Cursor" : false,
   "Guid" : "84F84A8E-B3EF-4FD0-9285-260A05F8803C",
+  "Blinking Cursor" : false,
   "Ansi 8 Color" : {
     "Red Component" : 0.40781760215759277,
     "Color Space" : "sRGB",
@@ -402,10 +397,10 @@
     "Color Space" : "sRGB",
     "Blue Component" : 0.11764705926179886,
     "Alpha Component" : 1,
-    "Green Component" : 0.098039217293262482
+    "Green Component" : 0.098039217293262454
   },
   "Blur" : false,
-  "Normal Font" : "JetBrainsMono-Regular 16",
+  "Normal Font" : "JetBrainsMono-Regular 13",
   "Vertical Spacing" : 1.01,
   "Ansi 7 Color" : {
     "Red Component" : 0.7810397744178772,
@@ -418,7 +413,7 @@
   "Command" : "",
   "Terminal Type" : "xterm-256color",
   "Horizontal Spacing" : 1,
-  "Option Key Sends" : 2,
+  "Option Key Sends" : 0,
   "Only The Default BG Color Uses Transparency" : true,
   "HotKey Window Animates" : false,
   "HotKey Modifier Flags" : 1179648,
@@ -466,7 +461,13 @@
 
   ],
   "Visual Bell" : true,
-  "Custom Directory" : "No",
-  "Thin Strokes" : 4,
-  "ASCII Ligatures" : true
+  "ASCII Ligatures" : false,
+  "Ansi 5 Color" : {
+    "Red Component" : 0.752197265625,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.74494361877441406,
+    "Alpha Component" : 1,
+    "Green Component" : 0.24931684136390686
+  },
+  "Thin Strokes" : 4
 }
