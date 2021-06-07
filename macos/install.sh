@@ -226,6 +226,8 @@ go get -u github.com/oligot/go-mod-upgrade
 go get -u github.com/rakyll/gotest
 go get -u github.com/cucumber/godog/cmd/godog
 
+# npm packages
+npm install -g azurite
 # kubectl plugins
 kubectl krew install view-secret
 
