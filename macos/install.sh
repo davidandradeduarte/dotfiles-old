@@ -130,6 +130,7 @@ brew_packages=(
 	autopep8
 	black
 	yapf
+	mono
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
