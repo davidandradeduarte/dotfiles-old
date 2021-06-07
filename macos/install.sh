@@ -123,6 +123,7 @@ brew_packages=(
 	youtube-dl
 	emacs
 	httpstat
+	tcpstat
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
