@@ -127,6 +127,7 @@ brew_packages=(
 	dep
 	benthos
 	sqlc
+	autopep8
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
