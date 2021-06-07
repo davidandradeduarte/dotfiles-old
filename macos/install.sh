@@ -122,6 +122,7 @@ brew_packages=(
 	maven
 	youtube-dl
 	emacs
+	httpstat
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
