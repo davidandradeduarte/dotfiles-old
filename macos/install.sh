@@ -124,6 +124,7 @@ brew_packages=(
 	emacs
 	httpstat
 	tcpstat
+	dep
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
