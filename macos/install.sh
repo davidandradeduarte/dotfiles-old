@@ -124,7 +124,7 @@ brew_packages=(
 	emacs
 	httpstat
 	tcpstat
-	dep
+	# dep # deprecated
 	benthos
 	sqlc
 	autopep8
