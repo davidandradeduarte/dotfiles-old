@@ -126,6 +126,7 @@ brew_packages=(
 	tcpstat
 	dep
 	benthos
+	sqlc
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
