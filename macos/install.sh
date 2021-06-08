@@ -209,6 +209,7 @@ brew_casks=(
 	postman
 	twitch
 	microsoft-edge
+	container-ps
 )
 brew install --cask ${brew_casks[@]}
 
@@ -235,6 +236,8 @@ dotnet tool install -g dotnet-format
 
 # npm packages
 npm install -g azurite
+npm i -g krane # krane cli
+
 # kubectl plugins
 kubectl krew install view-secret
 
