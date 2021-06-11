@@ -210,6 +210,7 @@ brew_casks=(
 	twitch
 	microsoft-edge
 	container-ps
+	kindle
 )
 brew install --cask ${brew_casks[@]}
 
