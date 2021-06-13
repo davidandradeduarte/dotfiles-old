@@ -211,6 +211,7 @@ brew_casks=(
 	microsoft-edge
 	container-ps
 	kindle
+	steam
 )
 brew install --cask ${brew_casks[@]}
 
