@@ -212,6 +212,8 @@ brew_casks=(
 	container-ps
 	kindle
 	steam
+	battle-net
+	github
 )
 brew install --cask ${brew_casks[@]}
 
