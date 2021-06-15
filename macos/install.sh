@@ -235,6 +235,9 @@ go get -u github.com/oligot/go-mod-upgrade
 go get -u github.com/rakyll/gotest
 go get -u github.com/cucumber/godog/cmd/godog
 
+# gem
+sudo gem install mdless
+
 # dotnet packages
 dotnet tool install -g dotnet-format
 
