@@ -112,6 +112,7 @@ choco install sql-server-management-studio
 choco install vnc-viewer
 choco install gitversion.portable
 choco install lockhunter
+choco install auto-dark-mode
 
 # python packages
 pip install pre-commit
