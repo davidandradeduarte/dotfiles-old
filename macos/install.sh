@@ -214,6 +214,7 @@ brew_casks=(
 	steam
 	battle-net
 	github
+	amazon-music
 )
 brew install --cask ${brew_casks[@]}
 
