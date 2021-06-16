@@ -113,6 +113,7 @@ choco install vnc-viewer
 choco install gitversion.portable
 choco install lockhunter
 choco install auto-dark-mode
+choco install caffeine
 
 # python packages
 pip install pre-commit
