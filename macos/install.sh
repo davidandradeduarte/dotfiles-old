@@ -216,6 +216,8 @@ brew_casks=(
 	github
 	amazon-music
 	epic-games
+	android-file-transfer
+	raspberry-pi-imager
 )
 brew install --cask ${brew_casks[@]}
 
