@@ -87,6 +87,7 @@ brew_packages=(
 	kustomize
 	sops
 	fluxctl
+	fluxcd/tap/flux
 	tflint
 	terragrunt
 	wakeonlan
