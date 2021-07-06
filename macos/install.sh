@@ -221,6 +221,7 @@ brew_casks=(
 	android-file-transfer
 	raspberry-pi-imager
 	wombat
+	bloomrpc
 )
 brew install --cask ${brew_casks[@]}
 
