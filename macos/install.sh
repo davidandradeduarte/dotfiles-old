@@ -222,6 +222,8 @@ brew_casks=(
 	raspberry-pi-imager
 	wombat
 	bloomrpc
+	appcode
+	android-studio
 )
 brew install --cask ${brew_casks[@]}
 
