@@ -220,6 +220,7 @@ brew_casks=(
 	epic-games
 	android-file-transfer
 	raspberry-pi-imager
+	wombat
 )
 brew install --cask ${brew_casks[@]}
 
