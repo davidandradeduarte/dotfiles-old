@@ -150,6 +150,7 @@ brew tap isen-ng/dotnet-sdk-versions
 echo "Installing homebrew casks..."
 brew_casks=(
 	visual-studio-code
+	sublime-test
 	iterm2
 	brave-browser
 	google-chrome
