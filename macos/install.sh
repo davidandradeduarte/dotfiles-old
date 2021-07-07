@@ -133,6 +133,7 @@ brew_packages=(
 	yapf
 	mono
 	terminal-notifier
+	dty1er/tap/kubecolor
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans

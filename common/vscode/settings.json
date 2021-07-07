@@ -7,9 +7,111 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.renderWhitespace": "all",
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1,
     "explorer.confirmDelete": false,
     "go.toolsManagement.autoUpdate": true,
+    "workbench.settings.editor": "ui",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.autoSave": "afterDelay",
+    "omnisharp.path": "",
+    "omnisharp.monoPath": "",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.enableNeovim": true,
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "workbench.panel.defaultLocation": "right",
     "workbench.activityBar.visible": false,
-    "workbench.settings.editor": "ui"
+    "highlight.regexes": {
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#ffcc00",
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc0000",
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#00ccff",
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc00cc",
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f"
+                }
+            ]
+        }
+    },
+    "todohighlight.isEnable": true,
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "highlight.decorations": {
+        "rangeBehavior": 3
+    },
+    "redhat.telemetry.enabled": false,
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
