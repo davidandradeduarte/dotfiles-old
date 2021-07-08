@@ -226,7 +226,9 @@ brew_casks=(
 	bloomrpc
 	appcode
 	android-studio
+	font-jetbrains-mono
 )
+brew tap homebrew/cask-fonts
 brew install --cask ${brew_casks[@]}
 
 echo "Cleaning up homebrew..."
