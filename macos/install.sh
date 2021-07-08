@@ -141,6 +141,7 @@ brew tap ktr0731/evans
 brew tap git-chglog/git-chglog
 brew tap isen-ng/dotnet-sdk-versions # https://github.com/isen-ng/homebrew-dotnet-sdk-versions
 brew install ${brew_packages[@]}
+$(brew --prefix)/opt/fzf/install
 
 # dotnet version management
 # https://github.com/isen-ng/homebrew-dotnet-sdk-versions
