@@ -134,6 +134,7 @@ brew_packages=(
 	mono
 	terminal-notifier
 	dty1er/tap/kubecolor
+	antigen
 )
 brew tap mongodb/brew
 brew tap ktr0731/evans
@@ -238,6 +239,9 @@ brew doctor
 
 # TODO: install code extensions
 # code --install-extension X
+
+# oh my zsh - plugins
+antigen 
 
 # app store
 mas install 937984704 # Amphetamine

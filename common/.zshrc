@@ -16,10 +16,10 @@ plugins=(
     colorize
     brew
     osx
-    zsh-syntax-highlighting
+    kubectl
     zsh-completions
     zsh-autosuggestions
-    kubectl
+    zsh-syntax-highlighting
     )
 
 source $ZSH/oh-my-zsh.sh
@@ -91,3 +91,6 @@ kn(){
 
 # f*
 eval $(thefuck --alias)
+
+# antigen
+source /usr/local/share/antigen/antigen.zsh
