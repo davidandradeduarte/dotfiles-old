@@ -28,7 +28,6 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "vim.enableNeovim": true,
-    "window.zoomLevel": 1,
     "workbench.startupEditor": "none",
     "security.workspace.trust.untrustedFiles": "open",
     "editor.minimap.enabled": false,
@@ -113,5 +112,6 @@
     "redhat.telemetry.enabled": false,
     "[yaml]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "window.zoomLevel": 1
 }

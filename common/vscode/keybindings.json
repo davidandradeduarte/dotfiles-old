@@ -21,16 +21,6 @@
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+cmd+\\",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
-        "key": "ctrl+shift+[BracketRight]",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
-    {
         "key": "alt+enter",
         "command": "editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
@@ -47,5 +37,47 @@
     {
         "key": "cmd+b",
         "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "-workbench.action.terminal.focusTabs",
+        "when": "terminalFocus && terminalProcessSupported || terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "shift+cmd+[BracketRight]",
+        "command": "workbench.action.createTerminalEditor"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+shift+[BracketRight]",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
     }
 ]
