@@ -135,7 +135,9 @@ brew_packages=(
 	terminal-notifier
 	dty1er/tap/kubecolor
 	#antigen
+	deviceinsight/packages/kafkactl
 )
+brew tap deviceinsight/packages
 brew tap mongodb/brew
 brew tap ktr0731/evans
 brew tap git-chglog/git-chglog
