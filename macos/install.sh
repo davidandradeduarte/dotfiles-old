@@ -27,6 +27,8 @@ brew_packages=(
 	ncdu
 	tmux
 	bash
+	gcc
+	gdb
 	zsh
 	# zsh-autosuggestions
 	# zsh-you-should-use
