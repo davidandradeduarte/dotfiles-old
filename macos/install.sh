@@ -29,6 +29,7 @@ brew_packages=(
 	bash
 	gcc
 	gdb
+	binutils
 	zsh
 	# zsh-autosuggestions
 	# zsh-you-should-use
