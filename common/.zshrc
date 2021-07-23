@@ -94,3 +94,6 @@ eval $(thefuck --alias)
 
 # antigen
 source /usr/local/share/antigen/antigen.zsh
+
+# binutils
+export PATH="/usr/local/opt/binutils/bin:$PATH"
