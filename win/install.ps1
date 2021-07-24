@@ -114,6 +114,8 @@ choco install gitversion.portable
 choco install lockhunter
 choco install auto-dark-mode
 choco install caffeine
+choco install procexp
+choco install processhacker
 
 # python packages
 pip install pre-commit
