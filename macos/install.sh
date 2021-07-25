@@ -139,6 +139,7 @@ brew_packages=(
 	dty1er/tap/kubecolor
 	#antigen
 	deviceinsight/packages/kafkactl
+	strace
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
