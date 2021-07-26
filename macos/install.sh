@@ -262,6 +262,7 @@ sudo gem install mdless
 
 # dotnet packages
 dotnet tool install -g dotnet-format
+dotnet tool install --global dotnet-ef
 
 # npm packages
 npm install -g azurite
