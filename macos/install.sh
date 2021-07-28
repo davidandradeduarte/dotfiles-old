@@ -140,6 +140,7 @@ brew_packages=(
 	#antigen
 	deviceinsight/packages/kafkactl
 	strace
+	hey
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
