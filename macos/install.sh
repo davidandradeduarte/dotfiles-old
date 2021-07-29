@@ -141,6 +141,8 @@ brew_packages=(
 	deviceinsight/packages/kafkactl
 	strace
 	hey
+	dependency-check
+	arp-scan
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
