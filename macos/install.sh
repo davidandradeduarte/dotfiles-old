@@ -143,6 +143,7 @@ brew_packages=(
 	hey
 	dependency-check
 	arp-scan
+	whois
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
