@@ -86,6 +86,11 @@ kn(){
     kubens "$@"
 }
 
+# rider
+rider(){
+  open -na "Rider.app" --args "$@"
+}
+
 # z
 . /usr/local/etc/profile.d/z.sh
 
