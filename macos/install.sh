@@ -271,6 +271,7 @@ dotnet tool install --global dotnet-ef
 # npm packages
 npm install -g azurite
 npm i -g krane # krane cli
+npm install -g redis-commander
 
 # kubectl plugins
 kubectl krew install view-secret
