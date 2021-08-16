@@ -144,6 +144,7 @@ brew_packages=(
 	dependency-check
 	arp-scan
 	whois
+	lazygit
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew

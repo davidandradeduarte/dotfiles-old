@@ -91,6 +91,10 @@ rider(){
   open -na "Rider.app" --args "$@"
 }
 
+goland(){
+  open -na "GoLand.app" --args "$@"
+}
+
 # z
 . /usr/local/etc/profile.d/z.sh
 
