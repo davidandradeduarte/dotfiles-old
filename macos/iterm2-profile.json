@@ -27,7 +27,7 @@
     "Green Component" : 0.86199951171875
   },
   "HotKey Window Floats" : false,
-  "Right Option Key Sends" : 2,
+  "Right Option Key Sends" : 0,
   "Character Encoding" : 4,
   "Selection Color" : {
     "Red Component" : 0.70196080207824707,
@@ -366,8 +366,8 @@
     "Green Component" : 0.23660069704055786
   },
   "Name" : "My",
-  "Blinking Cursor" : false,
   "Guid" : "C47B70AC-18F3-435D-ADE8-49718327909B",
+  "Blinking Cursor" : false,
   "Ansi 8 Color" : {
     "Red Component" : 0.40781760215759277,
     "Color Space" : "sRGB",
@@ -399,9 +399,10 @@
     "Alpha Component" : 1,
     "Green Component" : 0.098039217293262454
   },
-  "Blur" : false,
+  "Left Option Key Changeable" : false,
   "Normal Font" : "JetBrainsMono-Regular 13",
   "Vertical Spacing" : 1.01,
+  "Blur" : false,
   "Ansi 7 Color" : {
     "Red Component" : 0.7810397744178772,
     "Color Space" : "sRGB",
@@ -461,8 +462,8 @@
 
   ],
   "Visual Bell" : true,
-  "ASCII Ligatures" : false,
   "Custom Directory" : "No",
+  "ASCII Ligatures" : false,
   "Ansi 5 Color" : {
     "Red Component" : 0.752197265625,
     "Color Space" : "sRGB",
