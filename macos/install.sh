@@ -145,6 +145,7 @@ brew_packages=(
 	arp-scan
 	whois
 	lazygit
+	sachaos/tap/viddy
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
