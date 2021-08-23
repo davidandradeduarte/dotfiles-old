@@ -146,6 +146,7 @@ brew_packages=(
 	whois
 	lazygit
 	sachaos/tap/viddy
+	parallel
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
