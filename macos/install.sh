@@ -195,6 +195,8 @@ brew_casks=(
 	cloudflare-warp
 	protonvpn
 	spotify
+	spotifyd
+	spotify-tui
 	maccy
 	rectangle
 	whatsapp
