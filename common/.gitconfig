@@ -15,7 +15,7 @@
 	ss = status -s
 	co = checkout
 	cb = checkout -b
-	fp = !git fetch && git pull
+	fp = !git fetch && git pull --no-rebase
 	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 [color "status"]
 	added = green bold
