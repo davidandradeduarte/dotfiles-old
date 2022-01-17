@@ -145,6 +145,7 @@ brew_packages=(
 	arp-scan
 	whois
 	lazygit
+	lazydocker
 	sachaos/tap/viddy
 	parallel
 )
