@@ -120,6 +120,7 @@ alias vim="nvim"
 alias lg="lazygit"
 alias cat="bat -p"
 alias code='function _code(){ code -a $1; };_code'
+alias l='function _exal(){ exa -l; };_exal'
 alias k="kubectl"
 alias kc="kubectx"
 alias kn="kubens"

@@ -148,6 +148,7 @@ brew_packages=(
 	lazydocker
 	sachaos/tap/viddy
 	parallel
+	exa
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
