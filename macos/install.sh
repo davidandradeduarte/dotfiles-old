@@ -149,6 +149,7 @@ brew_packages=(
 	sachaos/tap/viddy
 	parallel
 	exa
+	phayes/repo/freeport
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
