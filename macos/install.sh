@@ -268,6 +268,7 @@ go get -u github.com/hakluke/hakrawler
 go get -u github.com/oligot/go-mod-upgrade
 go get -u github.com/rakyll/gotest
 go get -u github.com/cucumber/godog/cmd/godog
+go install github.com/x-motemen/gore/cmd/gore@latest
 
 # gem
 sudo gem install mdless
