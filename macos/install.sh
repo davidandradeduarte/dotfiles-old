@@ -152,6 +152,7 @@ brew_packages=(
 	phayes/repo/freeport
 	rs/tap/curlie
 	httpie
+	ugrep
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
