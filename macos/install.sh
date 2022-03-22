@@ -150,6 +150,8 @@ brew_packages=(
 	parallel
 	exa
 	phayes/repo/freeport
+	rs/tap/curlie
+	httpie
 )
 brew tap deviceinsight/packages
 brew tap mongodb/brew
