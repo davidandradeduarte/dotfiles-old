@@ -153,7 +153,9 @@ brew_packages=(
 	rs/tap/curlie
 	httpie
 	ugrep
+	protolint
 )
+brew tap yoheimuta/protolint
 brew tap deviceinsight/packages
 brew tap mongodb/brew
 brew tap ktr0731/evans
