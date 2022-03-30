@@ -154,6 +154,7 @@ brew_packages=(
 	httpie
 	ugrep
 	protolint
+	charmbracelet/tap/wishlist
 )
 brew tap yoheimuta/protolint
 brew tap deviceinsight/packages
