@@ -155,6 +155,21 @@ brew_packages=(
 	ugrep
 	protolint
 	charmbracelet/tap/wishlist
+	lsd
+	dust
+	delta
+	duf
+	broot
+	bottom
+	glances
+	gtop
+	hyperfine
+	gping
+	procs
+	xh
+	zoxide
+	dog
+	dive
 )
 brew tap yoheimuta/protolint
 brew tap deviceinsight/packages
@@ -275,6 +290,7 @@ go get -u github.com/oligot/go-mod-upgrade
 go get -u github.com/rakyll/gotest
 go get -u github.com/cucumber/godog/cmd/godog
 go install github.com/x-motemen/gore/cmd/gore@latest
+go install github.com/cheat/cheat/cmd/cheat@latest
 
 # gem
 sudo gem install mdless
