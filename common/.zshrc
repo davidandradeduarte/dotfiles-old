@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# remove duplicates from .zsh_history
+cat -n ~/.zsh_history | sort -t ';' -uk2 | sort -nk1 | cut -f2- > ~/.zsh_short_history && mv ~/.zsh_short_history ~/.zsh_history
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/david/.oh-my-zsh"
 
