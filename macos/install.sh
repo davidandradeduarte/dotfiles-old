@@ -171,6 +171,7 @@ brew_packages=(
 	dog
 	dive
 	hexyl
+	just
 )
 brew tap yoheimuta/protolint
 brew tap deviceinsight/packages
