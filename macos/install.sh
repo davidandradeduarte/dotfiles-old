@@ -170,6 +170,7 @@ brew_packages=(
 	zoxide
 	dog
 	dive
+	hexyl
 )
 brew tap yoheimuta/protolint
 brew tap deviceinsight/packages
